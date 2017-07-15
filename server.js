@@ -22,7 +22,7 @@ app.post('/api/add', function(req, res) {
   var fileName = './testResults/' + req.body.fileName;
   var obj = { 'stage': req.body.body };
 
-  jsonfile.writeFile(fileName, obj, { flag: 'a' }, function (err) {
+  jsonfile.writeFileSync(fileName, obj, { flag: 'a' }, function (err) {
     console.error(err)
   });
   res.end("Good ");
