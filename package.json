@@ -1,0 +1,16 @@
+{
+  "name": "serversos",
+  "version": "1.0.0",
+  "description": "A seminar app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Noy Itach",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "jsonfile": "^3.0.1"
+  }
+}
